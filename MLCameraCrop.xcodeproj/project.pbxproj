@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F433BE1EE6F1880061E4F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F433BD1EE6F1880061E4F0 /* main.m */; };
+		36F433C11EE6F1880061E4F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F433C01EE6F1880061E4F0 /* AppDelegate.m */; };
+		36F433C41EE6F1880061E4F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F433C31EE6F1880061E4F0 /* ViewController.m */; };
+		36F433C71EE6F1880061E4F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F433C51EE6F1880061E4F0 /* Main.storyboard */; };
+		36F433C91EE6F1880061E4F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F433C81EE6F1880061E4F0 /* Assets.xcassets */; };
+		36F433CC1EE6F1880061E4F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36F433CA1EE6F1880061E4F0 /* LaunchScreen.storyboard */; };
+		36F433D61EE6F1D30061E4F0 /* MLCameraCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F433D51EE6F1D30061E4F0 /* MLCameraCropViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36F433B91EE6F1880061E4F0 /* MLCameraCrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLCameraCrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F433BD1EE6F1880061E4F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		36F433BF1EE6F1880061E4F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		36F433C01EE6F1880061E4F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		36F433C21EE6F1880061E4F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		36F433C31EE6F1880061E4F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		36F433C61EE6F1880061E4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36F433C81EE6F1880061E4F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36F433CB1EE6F1880061E4F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36F433CD1EE6F1880061E4F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F433D41EE6F1D30061E4F0 /* MLCameraCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCameraCropViewController.h; sourceTree = "<group>"; };
+		36F433D51EE6F1D30061E4F0 /* MLCameraCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCameraCropViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F433B61EE6F1880061E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F433B01EE6F1880061E4F0 = {
+			isa = PBXGroup;
+			children = (
+				36F433D31EE6F1C00061E4F0 /* Classes */,
+				36F433BB1EE6F1880061E4F0 /* MLCameraCrop */,
+				36F433BA1EE6F1880061E4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F433BA1EE6F1880061E4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F433B91EE6F1880061E4F0 /* MLCameraCrop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F433BB1EE6F1880061E4F0 /* MLCameraCrop */ = {
+			isa = PBXGroup;
+			children = (
+				36F433BF1EE6F1880061E4F0 /* AppDelegate.h */,
+				36F433C01EE6F1880061E4F0 /* AppDelegate.m */,
+				36F433C21EE6F1880061E4F0 /* ViewController.h */,
+				36F433C31EE6F1880061E4F0 /* ViewController.m */,
+				36F433C51EE6F1880061E4F0 /* Main.storyboard */,
+				36F433C81EE6F1880061E4F0 /* Assets.xcassets */,
+				36F433CA1EE6F1880061E4F0 /* LaunchScreen.storyboard */,
+				36F433CD1EE6F1880061E4F0 /* Info.plist */,
+				36F433BC1EE6F1880061E4F0 /* Supporting Files */,
+			);
+			path = MLCameraCrop;
+			sourceTree = "<group>";
+		};
+		36F433BC1EE6F1880061E4F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36F433BD1EE6F1880061E4F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36F433D31EE6F1C00061E4F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				36F433D41EE6F1D30061E4F0 /* MLCameraCropViewController.h */,
+				36F433D51EE6F1D30061E4F0 /* MLCameraCropViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F433B81EE6F1880061E4F0 /* MLCameraCrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F433D01EE6F1880061E4F0 /* Build configuration list for PBXNativeTarget "MLCameraCrop" */;
+			buildPhases = (
+				36F433B51EE6F1880061E4F0 /* Sources */,
+				36F433B61EE6F1880061E4F0 /* Frameworks */,
+				36F433B71EE6F1880061E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLCameraCrop;
+			productName = MLCameraCrop;
+			productReference = 36F433B91EE6F1880061E4F0 /* MLCameraCrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F433B11EE6F1880061E4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = molon;
+				TargetAttributes = {
+					36F433B81EE6F1880061E4F0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PDL85JB6BQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 36F433B41EE6F1880061E4F0 /* Build configuration list for PBXProject "MLCameraCrop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36F433B01EE6F1880061E4F0;
+			productRefGroup = 36F433BA1EE6F1880061E4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F433B81EE6F1880061E4F0 /* MLCameraCrop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F433B71EE6F1880061E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F433CC1EE6F1880061E4F0 /* LaunchScreen.storyboard in Resources */,
+				36F433C91EE6F1880061E4F0 /* Assets.xcassets in Resources */,
+				36F433C71EE6F1880061E4F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F433B51EE6F1880061E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F433D61EE6F1D30061E4F0 /* MLCameraCropViewController.m in Sources */,
+				36F433C41EE6F1880061E4F0 /* ViewController.m in Sources */,
+				36F433C11EE6F1880061E4F0 /* AppDelegate.m in Sources */,
+				36F433BE1EE6F1880061E4F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36F433C51EE6F1880061E4F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F433C61EE6F1880061E4F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36F433CA1EE6F1880061E4F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F433CB1EE6F1880061E4F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F433CE1EE6F1880061E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36F433CF1EE6F1880061E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36F433D11EE6F1880061E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDL85JB6BQ;
+				INFOPLIST_FILE = MLCameraCrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.molon.MLCameraCrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36F433D21EE6F1880061E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDL85JB6BQ;
+				INFOPLIST_FILE = MLCameraCrop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.molon.MLCameraCrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F433B41EE6F1880061E4F0 /* Build configuration list for PBXProject "MLCameraCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F433CE1EE6F1880061E4F0 /* Debug */,
+				36F433CF1EE6F1880061E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F433D01EE6F1880061E4F0 /* Build configuration list for PBXNativeTarget "MLCameraCrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F433D11EE6F1880061E4F0 /* Debug */,
+				36F433D21EE6F1880061E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F433B11EE6F1880061E4F0 /* Project object */;
+}
